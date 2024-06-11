@@ -1,0 +1,13 @@
+{
+  "name": "contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy-frx-testnet": "source .env && forge create --rpc-url https://rpc.testnet.frax.com --private-key $PRIVATE_KEY src/Factbook.sol:Factbook --legacy --json > contractInfo.json",
+    "verify-contract": "source .env && forge verify-contract --num-of-optimizations 200 --watch --verifier etherscan --verifier-url https://api.fraxscan.com/api --etherscan-api-key $FRX_TESTNET_ETHERSCAN --compiler-version v0.8.20+commit.a1b79de6 0xbbb0f51Df70311439E78a26779126D67cC53C11d src/Factbook.sol:Factbook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
