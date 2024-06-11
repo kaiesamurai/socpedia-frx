@@ -36,7 +36,9 @@ await window.ethereum.request({
 | Network | Address | Link |
 |---|---|---|
 | Frax Testnet | 0x4d16abab0af777275cfb196571b21eb4723bbe2f162f36833786bc2d025c80b8 | https://holesky.fraxscan.com/tx/0x4d16abab0af777275cfb196571b21eb4723bbe2f162f36833786bc2d025c80b8 |
+![image](https://github.com/kaiesamurai/socpedia-frx/assets/96937608/94948db6-b689-4119-ab0b-72e1510f820d)
 
+![image](https://github.com/kaiesamurai/socpedia-frx/assets/96937608/7b3518e4-6297-47c9-a10f-4a96118d8d65)
 
 
 
